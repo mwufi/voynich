@@ -1,0 +1,23 @@
+```
+# paragraphs
+a.data.groupby(['folio', 'paragraph']).agg({
+    'text': '\n'.join
+}).to_dict()['text']
+```
+
+## Textbrowser
+A project for looking at lots of texts
+
+Reactive browser? Scroll for search
+
+Ideas for navigating text
+- zoomed-out version: coloring based on some principle
+
+How do you nagivate a manuscript like the Voynich in a good way?
+
+A key theme of this work is fluidity of representations. 
+ 
+How can we make dense information?
+Capturing the script with image processing
+
+Startup finished in 10.059s (firmware) + 3.694s (loader) + 3.396s (kernel) + 2.229s (userspace) = 19.380s 
