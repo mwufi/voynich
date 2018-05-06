@@ -5,6 +5,11 @@ import itertools
 
 DIR = 'data/'
 
+# --------------- add in the image function ----------------
+from IPython.display import Image
+def display(folio):
+    return Image('image/{}.jpg'.format(folio))
+
 # --------------- for working with the data/takeshi.txt file ----------------
 def process(line):
     line = line.strip()
